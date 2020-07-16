@@ -62,7 +62,7 @@ public class TicTacToe {
 		else {
 			symbol = "O";
 		}
-		
+		//Which box inserted to
 		switch(pos) {
 			case 1: 
 				if(board[0][0].equals("   ")) {
